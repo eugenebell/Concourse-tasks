@@ -8,3 +8,4 @@ run:
   path: ls
   args: 
   - "-al"
+  - "/tmp/build/"
