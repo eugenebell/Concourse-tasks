@@ -5,4 +5,6 @@ image_resource:
   source: 
     repository: ubuntu
 run:
-  path: pwd
+  path: mkdir
+  args:
+  - "/tmp/build/eddie"
