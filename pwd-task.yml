@@ -5,6 +5,6 @@ image_resource:
   source: 
     repository: ubuntu
 run:
-  path: mkdir
+  path: touch
   args:
-  - "/tmp/build/eddie"
+  - "eddie.txt"
